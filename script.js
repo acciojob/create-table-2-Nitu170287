@@ -13,7 +13,7 @@ function createTable() {
           var row = table.insertRow(i);
           for (var j = 0; j < cn; j++) {
             var cell = row.insertCell(j);
-            cell.innerHTML = "Row " + (i ) + ", Column " + (j );
+            cell.innerHTML = "Row " + (i ) + " Column " + (j );
           }
         }
       }
