@@ -3,7 +3,7 @@ function createTable() {
 	var rn = prompt("Input number of rows");; // Number of rows (can be dynamically determined as per your requirement)
       var cn = prompt("Input number of columns"); // Prompt for number of columns
 
-      if (cn) {
+      if(cn) {
         // Check if the user entered a value and clicked OK
         var table = document.getElementById("myTable");
         table.innerHTML = ""; // Clear the existing table content
@@ -13,7 +13,7 @@ function createTable() {
           var row = table.insertRow(i);
           for (var j = 0; j < cn; j++) {
             var cell = row.insertCell(j);
-            cell.innerHTML = "Row " + (i ) + " Column " + (j );
+            cell.innerHTML = "Row-" + (i ) + " Column-" + (j );
           }
         }
       }
